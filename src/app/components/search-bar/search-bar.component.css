@@ -1,0 +1,21 @@
+.search-bar {
+    width: 300px;
+    padding: 1rem;
+    outline: 0;
+    border: 0;
+    float: left;
+    box-shadow: -4px -1px 11px 0px #747d8c;
+}
+
+@media screen and (min-width:1024px) {
+    .search-bar {
+        width: 400px;
+        padding: 1rem;
+        outline: 0;
+        border: 0;
+        margin-right: 10rem;
+        float: right;
+        box-shadow: -4px -1px 11px 0px #747d8c;
+    }
+    
+}

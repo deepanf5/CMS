@@ -1,0 +1,210 @@
+<section class="add-customer">
+  <h1 class="hero-title">edit customer</h1>
+
+  <div class="pervious">
+    <h2 class="dash-board-link">
+      <a href="" [routerLink]="'/dashboard'">
+        <i class="fa-solid fa-arrow-left"></i> back to dash-board</a
+      >
+    </h2>
+    <h2 class="dash-board-link">
+      <a href="" [routerLink]="'/dashboard/list-view'">
+        <i class="fa-solid fa-arrow-left"></i> back to list-view</a
+      >
+    </h2>
+  </div>
+
+  <h2 class="add-icon">
+    <i class="fa-solid fa-user-plus icon"></i> edit customer
+  </h2>
+
+  <div class="container">
+    <form [formGroup]="editCustomer" (ngSubmit)="updatecustomers()">
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >Name</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="name"
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name"
+            ng-required="name"
+          />
+          <div
+            *ngIf="
+              editCustomer.get('name')?.touched &&
+              editCustomer.get('name')?.invalid
+            "
+            class="alert alert-primary"
+          >
+            Name is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >Nick Name</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="nickname"
+            type="text"
+            class="form-control"
+            id="Nickname"
+            placeholder="Nick Name"
+            ng-required="nickname"
+          />
+          <div
+            *ngIf="
+              editCustomer.get('nickname')?.touched &&
+              editCustomer.get('nickname')?.invalid
+            "
+            class="alert alert-primary"
+          >
+            nick-name is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >Email</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="email"
+            type="text"
+            class="form-control"
+            id="email"
+            placeholder="email"
+            ng-required="email"
+          />
+          <div
+            *ngIf="
+              editCustomer.get('email')?.touched &&
+              editCustomer.get('email')?.invalid
+            "
+            class="alert alert-primary"
+          >
+            email is required
+          </div>
+        </div>
+      </div>
+      <div class="gender">
+        <div class="form-group row">
+          <label class="label-text" for="gender" class="col-sm-2 col-form-label"
+            >Gender</label
+          >
+          <div class="form-check">
+            <input
+              formControlName="gender"
+              type="radio"
+              class="form-check-input"
+              id="radio1"
+              name="gender"
+              value="male"
+              checked
+            />male
+
+            <label class="form-check-label" for="radio1"></label>
+          </div>
+          <div class="form-check">
+            <input
+              formControlName="gender"
+              type="radio"
+              class="form-check-input"
+              id="radio2"
+              name="gender"
+              value="female"
+            />female
+
+            <label class="form-check-label" for="radio2"></label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >city</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="city"
+            type="text"
+            class="form-control"
+            id="city"
+            placeholder="Name"
+            ng-required="city"
+          />
+          <div
+            *ngIf="
+              editCustomer.get('city')?.touched &&
+              editCustomer.get('city')?.invalid
+            "
+            class="alert alert-primary"
+          >
+            city is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >order</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="order"
+            type="number"
+            class="form-control"
+            id="order"
+            placeholder="Name"
+            ng-required="order"
+          />
+          <div
+            *ngIf="
+              editCustomer.get('state')?.touched &&
+              editCustomer.get('state')?.invalid
+            "
+            class="alert alert-primary"
+          >
+            state is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="label-text" for="name" class="col-sm-2 col-form-label"
+          >state</label
+        >
+        <div class="col-sm-10">
+          <input
+            formControlName="state"
+            type="text"
+            class="form-control"
+            id="state"
+            ng-required="state"
+          />
+          <div
+            *ngIf="message"
+            class="alert alert-success alert-dismissible fade show"
+            role="alert"
+          >
+            <strong class="text-center"> Hola successfully saved !</strong>
+            Lorem ipsum dolor sit amet consectetur.
+            <button
+              (click)="removemessage()"
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span class="close" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success">submit</button>
+      <button type="reset" class="btn btn-primary">reset</button>
+    </form>
+  </div>
+</section>

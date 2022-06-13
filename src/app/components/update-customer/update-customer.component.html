@@ -1,0 +1,34 @@
+<section class="update-section">
+  <h1 class="list-view">
+    <i class="fa fa-user-pen view-icons"></i> Update customer
+  </h1>
+  <h2 class="dash-board-link">
+    <a href="" [routerLink]="'/dashboard'">
+      <i class="fa-solid fa-arrow-left"></i> back to dash-board</a
+    >
+  </h2>
+  <app-search-bar></app-search-bar>
+  <h2 class="center-text">update customer</h2>
+
+  <div class="card-container">
+    <div
+      class="card"
+      *ngFor="let data of customerData | filter: searchKey:'name'"
+    >
+      <span class="update"
+        ><a href="" [routerLink]="['/dashboard/update-customer', data.id]"
+          ><i class="fa-solid fa-user-pen"></i></a
+      ></span>
+      <figure>
+        <img
+          class="customer-picture"
+          src="../../../assets/hero.svg"
+          alt="customer-picture"
+        />
+      </figure>
+      <h2 class="customer-name">{{ data.name }}</h2>
+      <p class="customer-email">{{ data.email }}</p>
+      <h2 class="orders">{{ data.order }} orders</h2>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,72 @@
+<h1 class="list-view">
+  <i class="fa-solid fa-table-list"></i> single customer
+</h1>
+
+<div class="links">
+  <h2 class="dash-board-link">
+    <a href="" [routerLink]="'/dashboard'">
+      <i class="fa-solid fa-arrow-left"></i> back to dash-board</a
+    >
+  </h2>
+  <h2 class="dash-board-link">
+    <a href="" [routerLink]="'/dashboard/all-orders'">
+      <i class="fa fa-square-arrow-up-right"></i> all-order</a
+    >
+  </h2>
+</div>
+
+<div class="container header">
+  <div class="customer-pic">
+    <img
+      class="customer-img"
+      src="../../../assets/hero.svg"
+      alt="customer-img"
+    />
+  </div>
+  <h1 class="title customer-title">orders for {{ singleCustomer.name }}</h1>
+  <h2 class="title">{{ singleCustomer.email }}</h2>
+  <h2 class="title">{{ singleCustomer.city }},{{ singleCustomer.state }}</h2>
+</div>
+
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th class="text-center" scope="col">products</th>
+        <th class="text-center" scope="col">quantity</th>
+        <th class="text-center" scope="col">Date</th>
+        <th class="text-center" scope="col">Unit price</th>
+        <th class="text-center" scope="col">1 x</th>
+        <th class="text-center" scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr></tr>
+      <tr>
+        <td class="text-center">
+          {{ singleCustomer.orderdetails[0].product1 }}
+        </td>
+        <td class="text-center">
+          {{ singleCustomer.orderdetails[0].quantity }}
+        </td>
+        <td class="text-center">{{ singleCustomer.orderdetails[0].date }}</td>
+        <td class="text-center">{{ singleCustomer.orderdetails[0].price1 }}</td>
+        <td class="text-center">{{ singleCustomer.orderdetails[0].price1 }}</td>
+        <td class="text-center"></td>
+      </tr>
+      <tr>
+        <td class="text-center">
+          {{ singleCustomer.orderdetails[1].product2 }}
+        </td>
+        <td class="text-center">
+          {{ singleCustomer.orderdetails[1].quantity }}
+        </td>
+        <td class="text-center">{{ singleCustomer.orderdetails[1].date }}</td>
+        <td class="text-center">{{ singleCustomer.orderdetails[1].price1 }}</td>
+        <td class="text-center">1400</td>
+        <td class="text-center">1750</td>
+      </tr>
+      <tr></tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,56 @@
+<div class="login-container">
+  <section class="login">
+    <h2 class="form-title">login</h2>
+    <form [formGroup]="form" (ngSubmit)="login()">
+      <div class="form-group">
+        <label class="lable" for="email">
+          <i class="fa fa-user icons"></i>
+        </label>
+        <input
+          formControlName="emailId"
+          class="form-control"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="email@gmail.com"
+        />
+      </div>
+      <div
+        *ngIf="form.get('emailId')?.touched && form.get('emailId')?.invalid"
+        class="alert alert-primary"
+      >
+        email is required
+      </div>
+      <div class="form-group">
+        <label class="lable" for="password">
+          <i class="fa fa-key icons"></i>
+        </label>
+        <input
+          formControlName="password"
+          class="form-control"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+      </div>
+      <div
+        *ngIf="form.get('password')?.touched && form.get('password')?.invalid"
+        class="alert alert-primary"
+      >
+        enter the password
+      </div>
+      <div class="button-container">
+        <button class="btn-login" type="submit">login</button>
+      </div>
+      <p class="register-text">
+        Don't have an account? Sign up and get started!
+        <span class="register">register</span>
+      </p>
+    </form>
+  </section>
+
+  <section class="hero">
+    <img class="hero-pic" src="../../../assets/hero.svg" alt="hero-images" />
+  </section>
+</div>

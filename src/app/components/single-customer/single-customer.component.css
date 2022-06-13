@@ -1,0 +1,42 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.links {
+    display: flex;
+}
+
+.list-view {
+    padding: 2rem;
+    padding-left: 8rem;
+    font-size: 1.5rem;
+    background-color: #2f3542;
+    color: #fff;
+}
+.dash-board-link {
+    width: 20%;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: 7rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+a {
+    color: #2f3542;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ff3838;
+}
+
+.customer-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color:#ff3838;
+}
+.customer-img {
+    width: 20%;
+}

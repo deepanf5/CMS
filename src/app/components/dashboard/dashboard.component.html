@@ -1,0 +1,76 @@
+<section class="dash-board-container">
+  <div class="side-bar">
+    <figure>
+      <img
+        class="admin-picture"
+        src="../../../assets/hero.svg"
+        alt="admin-picture"
+      />
+    </figure>
+    <h2 class="admin-name">welcome back, admin</h2>
+
+    <ul class="side-bar-list">
+      <li class="list-item"><i class="fa fa-home icons"></i>home</li>
+      <li class="list-item"><i class="fa fa-envelope icons"></i>mail</li>
+      <li class="list-item">
+        <i class="fa fa-list-check icons"></i>check list
+      </li>
+      <li class="list-item"><i class="fa fa-address-book icons"></i>address</li>
+      <li class="list-item"><i class="fa fa-home icons"></i>home</li>
+      <li class="list-item"><i class="fa fa-envelope icons"></i>mail</li>
+      <li class="list-item">
+        <i class="fa fa-list-check icons"></i>check list
+      </li>
+      <li class="list-item"><i class="fa fa-address-book icons"></i>address</li>
+      <li class="list-item">
+        <i class="fa fa-arrow-right-to-bracket icons"></i>logout
+      </li>
+    </ul>
+  </div>
+
+  <div class="dash-board">
+    <h1 class="dash-board-title">dash-board</h1>
+    <div class="action-container">
+      <div class="box card-view">
+        <a href="" [routerLink]="'/dashboard/card-view'">
+          <i class="fa-solid fa-table-list view-icons"></i>
+          <p class="about-view card-text">card-view</p>
+        </a>
+      </div>
+      <div class="box list-view">
+        <a href="" [routerLink]="'/dashboard/list-view'">
+          <i class="fa fa-list-ul view-icons"></i>
+          <p class="about-view">list-view</p>
+        </a>
+      </div>
+      <div class="box add-customer">
+        <a href="" [routerLink]="'/dashboard/add-customer'" class="text-color">
+          <i class="fa-solid fa-plus view-icons"></i>
+          <p class="about-view">add-customer</p>
+        </a>
+      </div>
+      <div class="box delete-customer">
+        <a href="" [routerLink]="'/dashboard/delete-customer'">
+          <i class="fa fa-user-xmark view-icons"></i>
+          <p class="about-view">Delete-customer.</p>
+        </a>
+      </div>
+      <div class="box all-order">
+        <a
+          href=""
+          [routerLink]="'/dashboard/update-customer'"
+          class="text-color"
+        >
+          <i class="fa fa-user-pen view-icons"></i>
+          <p class="about-view">Update-customer</p>
+        </a>
+      </div>
+      <div class="box all-orders">
+        <a href="" [routerLink]="'/dashboard/all-orders'">
+          <i class="fa fa-table-cells view-icons"></i>
+          <p class="about-view">view all orders</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

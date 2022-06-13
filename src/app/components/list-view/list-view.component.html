@@ -1,0 +1,59 @@
+<h1 class="list-view"><i class="fa-solid fa-table-list"></i> list view</h1>
+<h2 class="dash-board-link">
+  <a href="" [routerLink]="'/dashboard'">
+    <i class="fa-solid fa-arrow-left"></i> back to dash-board</a
+  >
+</h2>
+
+<section>
+  <div class="container">
+    <div class="container">
+      <table
+        class="table table-hover"
+        *ngIf="CustomerData"
+        datatable
+        [dtOptions]="dtOptions"
+      >
+        <thead>
+          <tr>
+            <th class="text-center" scope="col"></th>
+            <th class="text-center" scope="col">Name</th>
+            <th class="text-center" scope="col">City</th>
+            <th class="text-center" scope="col">Orders</th>
+            <th class="text-center" scope="col">Delete</th>
+            <th class="text-center" scope="col">Update</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of CustomerData">
+            <td class="text-center">
+              <img
+                class="customer-picture"
+                src="../../../assets/hero.svg"
+                alt=""
+              />
+            </td>
+            <td class="text-center">{{ data.name }}</td>
+            <td class="text-center">{{ data.city }}</td>
+            <td class="text-center">{{ data.order }}</td>
+            <td class="text-center">
+              <button
+                class="btn btn-danger btn-lg"
+                (click)="deleteCustomer(data.id)"
+              >
+                delete
+              </button>
+            </td>
+            <td class="text-center">
+              <button class="btn btn-warning btn-lg">
+                <a [routerLink]="['/dashboard/update-customer', data.id]"
+                  >update</a
+                >
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

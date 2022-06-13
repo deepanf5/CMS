@@ -1,0 +1,198 @@
+.login-container {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+}
+
+.form-title {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.about-text {
+    text-align: center;
+}
+
+.login {
+    
+    width: 100%;
+    height: 420px;
+    margin-top: 4rem;
+    background-color: #fff;
+}
+
+.icons {
+    margin-left: 3rem;
+}
+
+.hero-pic {
+    padding: 4rem;
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.lable {
+    margin: 1rem;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+.form-control {
+    width: 60%;
+    margin: 4rem 0 0 2rem;
+    padding: 1rem;
+    outline: 0;
+    background-color: #dcdde1;
+    border: 0;
+    
+}
+
+
+
+.register-text {
+    text-align: center;
+    margin-top:  2rem;
+    font-size: 1rem;
+}
+.register {
+    color: red;
+}
+
+.button-container {
+    text-align: center;
+    margin: 4rem;
+
+}
+
+.btn-login {
+    padding: 1rem;
+    width: 50%;
+    background-color: #222f3e;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.btn-login:hover {
+    background-color: #ff3838;
+    color: #000;
+}
+
+.alert {
+    margin:2rem 9rem 0 8rem;
+    text-align: center;
+    background-color: #222f3e;
+    color: #fff;
+}
+
+
+
+@media screen and (min-width:924px) {
+    .login-container {
+        height: 100vh;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+    }
+    
+    .form-title {
+        margin: 1rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
+    
+    .login {
+        
+        width: 30%;
+        height: 420px;
+        margin: 4rem 0 0 5%;
+        background-color: #fff;
+    }
+    
+    .icons {
+        margin-left: 3rem;
+    }
+    
+    .hero-pic {
+        padding: 4rem;
+        margin-top: 5%;
+        width: 100%;
+        height: 500px;
+    }
+    
+    
+    
+    .lable {
+        margin: 1rem;
+        width: 100px;
+        text-transform: capitalize;
+    }
+    
+    .form-control {
+        width: 60%;
+        margin: 4rem 0 0 2rem;
+        padding: 1rem;
+        outline: 0;
+        background-color: #dcdde1;
+        border: 0;
+        
+    }
+    
+    
+    
+    .register-text {
+        margin-left: 6rem;
+        text-align: left;
+        margin-top:  2rem;
+        font-size: 1rem;
+    }
+    .register {
+        color: red;
+    }
+    
+    .button-container {
+        text-align: center;
+        margin: 4rem;
+    
+    }
+    
+    .btn-login {
+        padding: 1rem;
+        width: 50%;
+        background-color: #222f3e;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        transition: background-color 1s;
+    }
+    .btn-login:hover {
+        background-color: #ff3838;
+        color: #000;
+    }
+
+    .alert {
+        margin:2rem 9rem 0 8rem;
+        text-align: center;
+        background-color: #222f3e;
+        color: #fff;
+    }
+    
+    
+    
+    
+}

@@ -1,0 +1,32 @@
+<div class="card-section">
+  <h1 class="card-view"><i class="fa-solid fa-square"></i> card view</h1>
+  <h2 class="dash-board-link">
+    <a href="" [routerLink]="'/dashboard'">
+      <i class="fa-solid fa-arrow-left"></i> back to dash-board</a
+    >
+  </h2>
+
+  <app-search-bar></app-search-bar>
+
+  <h2 class="title">customer details</h2>
+
+  <div class="card-container">
+    <div
+      class="card"
+      *ngFor="let data of customerData | filter: searchKey:'name'"
+    >
+      <figure>
+        <img
+          class="customer-picture"
+          src="../../../assets/hero.svg"
+          alt="customer-picture"
+        />
+      </figure>
+      <h2 class="customer-name">{{ data.name }}</h2>
+      <p class="customer-email">{{ data.email }}</p>
+      <a href="" [routerLink]="['/customer-orders/', data.id]">
+        <h2 class="orders">{{ data.order }} orders</h2>
+      </a>
+    </div>
+  </div>
+</div>

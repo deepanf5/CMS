@@ -1,0 +1,379 @@
+{
+  "post": [
+    {
+      "name": "David warner",
+      "nickname": "warner",
+      "email": "warner@a3345.biz",
+      "gender": "male",
+      "city": "abc",
+      "order": 2,
+      "state": "bxa",
+      "id": 6,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "quinton de kock",
+      "username": "de kock",
+      "email": "quinton@4521.com",
+      "gender": "male",
+      "images": "https://www.flaticon.com/free-icon/man_2922510?term=user&page=1&position=33&page=1&position=33&related_id=2922510&origin=search#",
+      "city": "abc",
+      "state": "bxa",
+      "order": 2,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "Mark walberg",
+      "nickname": "nick-names",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 9,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "James Anderson",
+      "nickname": "jimmy",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 10,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": "2",
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "john Wick",
+      "nickname": "baba yaga",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 11,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "hugh jackman",
+      "nickname": "wolverine",
+      "email": "wolervine@x-men.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 13,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": "2",
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "Finch",
+      "nickname": "Aaron",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 14,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "southee",
+      "nickname": "Tim",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 15,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "David miller",
+      "nickname": "killer miller",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 16,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "liam livingstone",
+      "nickname": "liam",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 17,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "data": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "Rookesh bala",
+      "nickname": "rookie",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 18,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "data": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "dave johnson",
+      "nickname": "The rock",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 19,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "Ibrahim",
+      "nickname": "Ibu",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 20,
+      "orderdetails": [
+        {
+          "product1": "bat",
+          "quantity": 1,
+          "price1": 350,
+          "date": "12/01/2022"
+        },
+        {
+          "product2": "shoe",
+          "quantity": 2,
+          "price1": 700,
+          "date": "12/01/2022"
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "nickname": "nick name",
+      "email": "123@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "state",
+      "id": 21
+    },
+    {
+      "name": "hugh jackman",
+      "nickname": "wolverine",
+      "email": "wolverine@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 3,
+      "state": "marvel",
+      "id": 22
+    },
+    {
+      "name": "hugh jackman",
+      "nickname": "nick name",
+      "email": "123@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "marvel",
+      "id": 23
+    },
+    {
+      "name": "thor",
+      "nickname": "strongest avenger",
+      "email": "thor@marvel.com",
+      "gender": "male",
+      "city": "asguard",
+      "order": 2,
+      "state": "marvel",
+      "id": 24
+    },
+    {
+      "name": "mark",
+      "nickname": "nick name",
+      "email": "wolverine@gmail.com",
+      "gender": "male",
+      "city": "city",
+      "order": 2,
+      "state": "marvel",
+      "id": 26
+    },
+    {
+      "name": "jimmy anderson",
+      "nickname": "jacky",
+      "email": "mail.gmail.com",
+      "gender": "male",
+      "city": "chennai",
+      "order": 2,
+      "state": "marvel",
+      "id": 27
+    }
+  ]
+}
+
+
